@@ -1,7 +1,7 @@
 {
   "name": "grunt-cloudfront-invalidation",
   "description": "A Grunt task for cloudfront invalidation with ability of tracking invalidation progress",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/steelkiwi/grunt-cloudfront-invalidation",
   "author": {
     "name": "Vitaliy Tarash",
