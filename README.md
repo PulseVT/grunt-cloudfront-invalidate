@@ -17,14 +17,14 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-cloudfront-invalidate');
 ```
 
-## The "cloudfront_invalidate" task
+## The "cloudfront_invalidation" task
 
 ### Overview
-In your project's Gruntfile, add a section named `cloudfront_invalidate` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `cloudfront_invalidation` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
-  cloudfront_invalidate: {
+  cloudfront_invalidation: {
     options: {
       // Task-specific options go here.
     },
