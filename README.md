@@ -1,6 +1,6 @@
 # grunt-cloudfront-invalidate
 
-> A Grunt task for cloudfront invalidation
+> A Grunt task for cloudfront invalidation with ability of tracking invalidation progress
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
