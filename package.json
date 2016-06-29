@@ -1,8 +1,8 @@
 {
   "name": "grunt-cloudfront-invalidation",
   "description": "A Grunt task for cloudfront invalidation with ability of tracking invalidation progress",
-  "version": "0.0.1",
-  "homepage": "https://github.com/pulsevt/grunt-cloudfront-invalidation",
+  "version": "0.0.3",
+  "homepage": "https://github.com/steelkiwi/grunt-cloudfront-invalidation",
   "author": {
     "name": "Vitaliy Tarash",
     "emails": [
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/pulsevt/grunt-cloudfront-invalidation.git"
+    "url": "git://github.com/steelkiwi/grunt-cloudfront-invalidation.git"
   },
   "bugs": {
-    "url": "https://github.com/pulsevt/grunt-cloudfront-invalidate/issues"
+    "url": "https://github.com/steelkiwi/grunt-cloudfront-invalidate/issues"
   },
   "engines": {
     "node": ">= 0.8.0"
