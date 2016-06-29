@@ -1,0 +1,38 @@
+{
+  "name": "grunt-cloudfront-invalidate",
+  "description": "A Grunt task for cloudfront invalidation with ability of tracking invalidation progress",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Pulse/grunt-cloudfront-invalidate",
+  "author": {
+    "name": "Vitaliy Tarash",
+    "emails": [
+      "tarash@steelkiwi.com",
+      "vitaliy.tarash@gmail.com"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Pulse/grunt-cloudfront-invalidate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pulse/grunt-cloudfront-invalidate/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Pulse/grunt-cloudfront-invalidate/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": [
+    "gruntplugin",
+    "cloudfront"
+  ],
+  "dependencies": {
+    "aws-sdk": "^2.4.2",
+    "log4js": "^0.6.37",
+    "q": "^1.4.1"
+  }
+}
