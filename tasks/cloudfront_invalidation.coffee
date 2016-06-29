@@ -81,6 +81,6 @@ class Cloudfront
 
 module.exports = (grunt) ->
 
-	grunt.registerMultiTask 'cloudfront_invalidate', ->
+	grunt.registerMultiTask 'cloudfront_invalidation', ->
 		cloudfront = new Cloudfront @options(), grunt
 		cloudfront.createInvalidation @async()

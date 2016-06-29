@@ -15,7 +15,7 @@
     "url": "git://github.com/steelkiwi/grunt-cloudfront-invalidation.git"
   },
   "bugs": {
-    "url": "https://github.com/steelkiwi/grunt-cloudfront-invalidate/issues"
+    "url": "https://github.com/steelkiwi/grunt-cloudfront-invalidation/issues"
   },
   "engines": {
     "node": ">= 0.8.0"
