@@ -58,15 +58,25 @@ Only target-specific option. List of files that should be invalidated.
 #### options.invalidationCheckInterval
 Type: `Number`
 Required: false
+Default: 10000
+
+Timeout is milliseconds to check the invalidation status
+
+#### options.onInvalidationComplete
+Type: `Function`
+Required: false
+
+Callback called when invalidation is successfully finished.
+*Note!* Not specifying this option tells task not to track invalidation status and finish right after it was created.
 
 #### options.onError
 Type: `Function`
 Required: false
 
+Callback called when error during invalidation creation or getting occures
+
 #### options.onSuccess
 Type: `Function`
 Required: false
 
-#### options.onInvalidationComplete
-Type: `Function`
-Required: false
+Callback called when invalidation is created
